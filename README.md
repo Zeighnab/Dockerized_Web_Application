@@ -25,10 +25,7 @@ tar cvzf interior.zip
 docker build -t interiorimg . (if dockerfile is in the current working directory)
 ```
 
-* Note: Always make your docker build uninteractive using environment variables 
-```
-ENV DEBIAN_FRONTEND=noninteractive
-```
+* Note: Always make your docker build uninteractive by adding this in your dockerfile `ENV DEBIAN_FRONTEND=noninteractive`
 
 7. Pull the image and create a container
 ```
