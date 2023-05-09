@@ -1,6 +1,7 @@
 ## This is a dockerized web app
 
-1. Create an EC2 Ubuntu VM, and install docker using the apt repo (https://docs.docker.com/engine/install/ubuntu/)
+1. Create an EC2 Ubuntu VM, and install docker using the apt repo 
+[docker official docs](https://docs.docker.com/engine/install/ubuntu/)
 
 2. Add ubuntu user into docker group
 ```
